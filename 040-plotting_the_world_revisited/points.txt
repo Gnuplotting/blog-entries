@@ -1,0 +1,4 @@
+# Some random points in Denmark
+9.1 55.9
+10.3 57.4
+12.0 55.5
