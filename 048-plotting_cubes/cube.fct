@@ -1,0 +1,48 @@
+# gnuplot function to create a cube
+# 
+# Usage: cube(x,y,z,c)
+cube(x,y,z,c) = sprintf('<echo "\
+%f %f %f %i\n\
+%f %f %f %i\n\
+%f %f %f %i\n\
+%f %f %f %i\n\
+%f %f %f %i\n\
+\n\
+%f %f %f %i\n\
+%f %f %f %i\n\
+%f %f %f %i\n\
+%f %f %f %i\n\
+%f %f %f %i\n\
+\n\
+%f %f %f %i\n\
+%f %f %f %i\n\
+%f %f %f %i\n\
+%f %f %f %i\n\
+%f %f %f %i\n\
+\n\
+%f %f %f %i\n\
+%f %f %f %i\n\
+%f %f %f %i\n\
+%f %f %f %i\n\
+%f %f %f %i"',\
+0+x,0+y,0+z,c,\
+0+x,0+y,1+z,c,\
+0+x,1+y,1+z,c,\
+0+x,1+y,0+z,c,\
+0+x,0+y,0+z,c,\
+1+x,0+y,0+z,c,\
+1+x,0+y,1+z,c,\
+1+x,1+y,1+z,c,\
+1+x,1+y,0+z,c,\
+1+x,0+y,0+z,c,\
+0+x,0+y,0+z,c,\
+1+x,0+y,0+z,c,\
+1+x,1+y,0+z,c,\
+0+x,1+y,0+z,c,\
+0+x,0+y,0+z,c,\
+0+x,0+y,1+z,c,\
+1+x,0+y,1+z,c,\
+1+x,1+y,1+z,c,\
+0+x,1+y,1+z,c,\
+0+x,0+y,1+z,c\
+)
