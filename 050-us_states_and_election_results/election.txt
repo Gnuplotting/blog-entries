@@ -1,0 +1,52 @@
+# idx election_result state_short state_long coordinate_y coordinate_x
+0  1 Mass.  "Massachusetts"  42.3739 -71.9993
+1  1 Minn.  "Minnesota"      46.0592 -93.364
+2  2 Mont.  "Montana"        46.9965 -110.044
+3  2 N.D.   "North Dakota"   47.4675 -100.302
+4  2 Idaho  "Idaho"          43.7825 -114.133
+5  1 Wash.  "Washington"     47.4865 -119.961
+6  2 Ariz.  "Arizona"        34.3046 -111.935
+7  1 Calif. "California"     36.7496 -119.591
+8  1 Colo.  "Colorado"       38.9998 -105.543
+9  1 Nev.   "Nevada"         39.4299 -117.02
+10 1 N.M.   "New Mexico"     34.5002 -106.024
+11 1 Ore.   "Oregon"         43.8333 -120.386
+12 2 Utah   "Utah"           39.5007 -111.544
+13 2 Wyo.   "Wyoming"        42.9999 -107.552
+14 2 Ark.   "Arkansas"       34.7563 -92.1428
+15 1 Iowa   "Iowa"           42.0423 -93.3891
+16 2 Kan.   "Kansas"         38.5 -98.3309
+17 2 Mo.    "Missouri"       38.5487 -92.446
+18 2 Neb.   "Nebraska"       41.5002 -99.6855
+19 2 Okla.  "Oklahoma"       35.452 -97.1309
+20 2 S.D.   "South Dakota"   44.4711 -100.255
+21 2 La.    "Louisiana"      30.5274 -91.9991
+22 2 Texas  "Texas"          31.131 -98.7607
+23 1 Conn.  "Connecticut"    41.6486 -72.7594
+24 1 N.H.   "New Hampshire"  43.5993 -71.6301
+25 1 R.I.   "Rhode Island"   41.6242 -71.5082
+26 1 Vt.    "Vermont"        44.0886 -72.7317
+27 2 Ala.   "Alabama"        32.8551 -86.7184
+28 1 Fla.   "Florida"        28.1568 -81.6228
+29 2 Ga.    "Georgia"        32.8547 -83.4078
+30 2 Miss.  "Mississippi"    32.8657 -89.7189
+31 2 S.C.   "South Carolina" 33.8578 -80.6471
+32 1 Ill.   "Illinois"       39.946 -89.1991
+33 2 Ind.   "Indiana"        39.8874 -86.1396
+34 2 Ky.    "Kentucky"       37.3994 -85.5729
+35 2 N.C.   "North Carolina" 35.6152 -78.866
+36 1 Ohio   "Ohio"           40.0924 -82.6719
+37 2 Tenn.  "Tennessee"      35.7514 -86.3415
+38 1 Va.    "Virginia"       37.7403 -78.2431
+39 1 Wis.   "Wisconsin"      44.3709 -89.5831
+40 2 W.Va.  "West Virginia"  38.6422 -80.7128
+41 1 Del.   "Delaware"       38.8657 -75.4112
+42 1 D.C.   "District of Columbia" 38.8922 -77.0113
+43 1 Md.    "Maryland"       39.3874 -77.0454
+44 1 N.J.   "New Jersey"     40.0449 -74.4653
+45 1 N.Y.   "New York"       43.1988 -75.3242
+46 1 Pa.    "Pennsylvania"   40.8601 -77.6094
+47 1 Maine  "Maine"          45.148 -69.1973
+48 1 Mich.  "Michigan"       43.4343 -84.9479
+49 1 Hawaii "Hawaii"         21.4919 -157.999
+50 2 Alaska "Alaska"         65.3609 -151.604
