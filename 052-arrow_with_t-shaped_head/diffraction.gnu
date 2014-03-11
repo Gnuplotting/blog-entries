@@ -5,6 +5,7 @@
 # AUTHOR: Hagen Wierstorf
 # gnuplot 4.6 patchlevel 3
 reset
+set macros
 
 # wxt. Note, that the italic option only seems to work for the pngcairo terminal
 set terminal wxt size 350,230 enhanced font 'Verdana-Italic,10' persist
