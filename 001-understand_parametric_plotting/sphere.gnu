@@ -37,7 +37,7 @@ set hidden3d
 
 # Radius
 r = 1.0
-h = sqrt(r/2)
+h = r / sqrt(2.)
 set arrow from 0,0,0 to h,0,h front nohead ls 2
 set label 'r' at 0.28,0,0.42 textcolor ls 2
 
