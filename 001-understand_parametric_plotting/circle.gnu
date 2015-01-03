@@ -1,4 +1,4 @@
-!/usr/bin/gnuplot
+#!/usr/bin/gnuplot
 #
 # Plotting a circle in 2D parametric mode
 #
@@ -37,7 +37,8 @@ set parametric
 
 # Radius
 r = 1.0
-set arrow from 0,0 to sqrt(r/2),sqrt(r/2) nohead ls 2
+h = r / sqrt(2.)
+set arrow from 0,0 to h,h nohead ls 2
 set label 'r' at 0.28,0.45 textcolor ls 2
 
 # Parametric functions for a circle
