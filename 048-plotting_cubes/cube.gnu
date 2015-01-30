@@ -3,7 +3,7 @@
 # Plots cubes like the example at http://pgfplots.sourceforge.net/h_example_82.pdf
 #
 # AUTHOR: Hagen Wierstorf
-# gnuplot 4.6 patchlevel 1
+# gnuplot 4.6 patchlevel 6
 
 reset
 
@@ -55,13 +55,13 @@ set lmargin 2
 set rmargin 0
 set bmargin 0
 set tmargin 0
-set xrange [0:13.6]
-set yrange [0:11.8]
-set zrange [0:9]
 # get cube positions from file
 add_cube(x,y,z,c) = sprintf('cube(%f,%f,%f,%i) w l ls %i,',x,y,z,c,c)
 CMD = ''
-stats 'cube_positions.txt' u 1:(CMD = CMD.add_cube($1,$2,$3,$4))
+stats 'cube_positions.txt' u 1:(CMD = CMD.add_cube($1,$2,$3,$4)) nooutput
+set xrange [0:13.6]
+set yrange [0:11.8]
+set zrange [0:13]
 CMD = 'splot '.CMD.'1/0 w l ls 2'
 # plot cubes
 eval(CMD)
