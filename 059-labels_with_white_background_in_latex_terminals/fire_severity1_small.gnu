@@ -8,7 +8,7 @@
 reset
 
 set terminal cairolatex standalone pdf size 9.27cm,6.09cm dashed transparent \
-monochrome font ", 8" header '\usepackage{soul}\sethlcolor{white}'
+monochrome font ", 8" header '\newcommand{\hl}[1]{\setlength{\fboxsep}{0.75pt}\colorbox{white}{#1}}'
 set output 'fire_severity1_small.tex'
 
 unset key

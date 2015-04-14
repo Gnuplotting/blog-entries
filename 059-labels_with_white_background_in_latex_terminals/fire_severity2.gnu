@@ -8,7 +8,7 @@
 reset
 
 set terminal cairolatex standalone pdf size 16cm, 10.5cm dashed transparent \
-monochrome header '\usepackage{soul}\sethlcolor{white}'
+monochrome header '\newcommand{\hl}[1]{\setlength{\fboxsep}{0.75pt}\colorbox{white}{#1}}'
 set output 'fire_severity2.tex'
 
 unset key
@@ -20,7 +20,7 @@ set xrange [0:180]
 set yrange [0:1200]
 
 set label 1 at  50, 250 '\hl{\small $t_\textrm{Nc}$}' center rotate by 45 front
-set label 2 at  90, 100 '\colorbox{white}{\small \shortstack[l]{Temperature of reference point \\ during construction $t_\textrm{Nc} / t_\textrm{rc}$}}' front
+set label 2 at  90, 100 '\hl{\small \shortstack[l]{Temperature of reference point \\ during construction $t_\textrm{Nc} / t_\textrm{rc}$}}' front
 set label 3 at  80, 250 '\hl{\small $t_\textrm{rc}$}' center rotate by 35 front
 set label 4 at  40, 490 '\hl{\small Critical temperature $t_\textrm{crit}$}' center front
 set label 5 at 130,1100 '\hl{\small Standard temperature $t_\textrm{N}$}' center rotate by   6 front
