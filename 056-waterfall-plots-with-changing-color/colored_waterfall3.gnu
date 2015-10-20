@@ -36,6 +36,6 @@ set style fill solid 0.0 border rgb 'black'
 
 limit360(x) = x<1?x+360:x
 amplitude_scaling = 200
-plot for [angle=360:0:-2.5] 'head_related_impulse_responses.txt' \
+plot for [angle=360:0:-2] 'head_related_impulse_responses.txt' \
     u 1:(amplitude_scaling*column(limit360(angle)+1)+angle) \
     w filledcu y1=-360 lw 0.5
