@@ -19,6 +19,7 @@ set view 342,0
 set xrange [-1:1]
 set yrange [0:20]
 set zrange [-1:1]
+system('mkdir -p png')
 # spiral upwards
 n=0
 do for [ii=1:99] {
